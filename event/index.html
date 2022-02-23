@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="p-event">
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container p-eventIndex">
+        <div class="c-title">
+            <h2>EVENT SEARCH</h2>
+            <p>八ヶ岳のイベント検索</p>
+        </div>
+        <section>
+            <div class="u-inner">
+                <ul class="breadcrumb">
+                    <li><a href="/">HOME</a></li>
+                    <li>トピックス</li>
+                </ul>
+                <div class="c-content default">
+                    <div class="column1">
+                        <div class="c-section-title underline sp-column">
+                            <div>
+                                <h2>EVENT SEARCH</h2>
+                                <p>八ヶ岳のイベント検索</p>
+                            </div>
+                        </div>
+                        <form action="" class="c-form">
+                            <div class="content">
+                                <dl class="date">
+                                    <dt>
+                                        開催日から探す
+                                    </dt>
+                                    <dd>
+                                        <div class="radio">
+                                            <label class="u-radio">本日
+                                                    <input type="radio" name="radio">
+                                                    <span class="radio-mark"></span>
+                                            </label>
+                                            <label class="u-radio">今週
+                                                    <input type="radio" name="radio">
+                                                    <span class="radio-mark"></span>
+                                            </label>
+                                        </div>
+                                        <div class="during">
+                                            <input type="text" class="u-input" placeholder="日付を選択してください">
+                                            <p>〜</p>
+                                            <input type="text" class="u-input" placeholder="日付を選択してください">
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        エリアから探す
+                                    </dt>
+                                    <dd>
+                                        <div class="u-select">
+                                            <select name="" id="">
+                                                <option value="">選択してください</option>
+                                                <option value="1">
+                                                    韮崎・増富
+                                                </option>
+                                                <option value="2">
+                                                    清里
+                                                </option>
+                                                <option value="3">
+                                                    小淵沢
+                                                </option>
+                                                <option value="4">
+                                                    白州
+                                                </option>
+                                                <option value="5">
+                                                    富士見・原
+                                                </option>
+                                                <option value="6">
+                                                    佐久平
+                                                </option>
+                                                <option value="7">
+                                                    茅野・蓼科
+                                                </option>
+                                                <option value="8">
+                                                    白樺湖・車山
+                                                </option>
+                                                <option value="9">
+                                                    諏訪
+                                                </option>
+                                                <option value="10">
+                                                    全エリア
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        ジャンルから探す
+                                    </dt>
+                                    <dd>
+                                        <div class="u-select">
+                                            <select name="" id="">                                                
+                                                <option value="">選択してください</option>
+                                            </select>
+                                        </div>
+                                    </dd>
+                                </dl>
+                                <dl>
+                                    <dt>
+                                        フリーワードから探す
+                                    </dt>
+                                    <dd>
+                                        <input type="text" class="u-input" placeholder="気になるワードで検索">
+                                    </dd>
+                                </dl>
+                                <div class="link">
+                                    <button type="submit" class="c-link sm">検索</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="spAd">
+                            <img src="/assets/img/common/sp_ad_img2.jpg" alt="">
+                        </div>
+                        <div class="c-label">
+                            近日開催のイベント
+                        </div>
+                        <div class="c-list">
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img1.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">【2020年12月11日追記・オープン延期になりました】八ヶ岳や富士山を一望できる絶景テラス！　車山高原SKYPARKスキー場にSKY TERRACE誕生</p>
+                                        <div class="category">
+                                            <span>グルメ</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+                                            <p>
+                                                <span>佐久平</span>
+                                                <span>蓼科</span>
+                                                <span>白樺湖</span>
+                                                <span>霧ヶ峰・車山</span>
+                                                <span>諏訪湖</span>
+                                            </p>
+
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img2.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">冬の旬、長芋はお正月のごちそう？　長野県南部では3が日にとろろご飯を食べる習慣も</p>
+                                        <div class="category">
+                                            <span>グルメ</span>
+                                            <span>ショッピング</span>
+                                            <span>寒いほどお得フェア</span>
+                                            <span>お取り寄せ</span>
+                                            <span>おうちで八ヶ岳</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img3.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">冬の夜を彩る諏訪湖イルミネーション2020-2021スタート、今年は間欠泉のイルミも</p>
+                                        <div class="category">
+                                            <span>八ヶ岳百景</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img4.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">米粉のお菓子教室をはじめ親子で楽しむステージなどが集まるクリスマスワークショップ</p>
+                                        <div class="category">
+                                            <span>グルメ</span>
+                                            <span>お取り寄せ</span>
+                                            <span>おうちで八ヶ岳</span>
+                                            <span>おうちで八ヶ岳</span>
+                                            <span>ミュージアム</span>
+                                            <span>お守り</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+                                            <p>
+                                                <span>佐久平</span>
+                                                <span>蓼科</span>
+                                                <span>白樺湖</span>
+                                                <span>霧ヶ峰・車山</span>
+                                                <span>諏訪湖</span>
+                                            </p>
+
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img1.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">【2020年12月11日追記・オープン延期になりました】八ヶ岳や富士山を一望できる絶景テラス！　車山高原SKYPARKスキー場にSKY TERRACE誕生</p>
+                                        <div class="category">
+                                            <span>グルメ</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+                                            <p>
+                                                <span>佐久平</span>
+                                                <span>蓼科</span>
+                                                <span>白樺湖</span>
+                                                <span>霧ヶ峰・車山</span>
+                                                <span>諏訪湖</span>
+                                            </p>
+
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <figure>
+                                        <img src="/assets/img/event/index/img2.jpg" alt="">
+                                    </figure>
+                                    <div>
+                                        <p class="desc">冬の旬、長芋はお正月のごちそう？　長野県南部では3が日にとろろご飯を食べる習慣も</p>
+                                        <div class="category">
+                                            <span>グルメ</span>
+                                            <span>ショッピング</span>
+                                            <span>寒いほどお得フェア</span>
+                                            <span>お取り寄せ</span>
+                                            <span>おうちで八ヶ岳</span>
+                                        </div>
+                                        <div class="area">
+                                            <p>
+                                                <span>韮崎・増富</span>
+                                                <span>清里</span>
+                                                <span>小淵沢</span>
+                                                <span>白州・長坂</span>
+                                                <span>富士見・原</span>
+                                            </p>
+
+                                        </div>
+                                        <div class="c-date">
+                                            2021.04.11
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="pagination">
+                            <a href="#"><img src="/assets/img/common/pagination_previous.svg" alt=""></a>
+                            <a href="#">1</a>
+                            <a class="active" href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
+                            <a href="#">5</a>
+                            <a href="#">6</a>
+                            <a href="#"><img src="/assets/img/common/pagination_next.svg" alt=""></a>
+                        </div>
+                        <div class="spAd p-eventIndex-spAd2">
+                            <img src="/assets/img/common/sp_ad_img2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <div class="advertise">
+                            <img src="/assets/img/common/topic_ad.jpg" alt="">
+                        </div>
+                        <div class="advertise">
+                            <img src="/assets/img/common/topic_ad.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+
+</html>

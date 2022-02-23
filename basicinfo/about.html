@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="p-basicinfo">
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container p-basicinfoAbout">
+        <div class="c-title">
+            <h2>Basic info</h2>
+            <p>八ヶ岳基本情報</p>
+        </div>
+        <section>
+            <div class="u-inner">
+                <ul class="breadcrumb">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                    <li>八ヶ岳とは</li>
+                </ul>
+                <div class="content">
+                    <section class="sec1">
+                        <div class="row">
+                            <div class="column">
+                                <div class="c-section-title sp-column">
+                                    <div>
+                                        <h2>ABOUT</h2>
+                                        <p>八ヶ岳とは</p>
+                                    </div>
+                                </div>
+                                <p class="txt">
+                                    本来「八ヶ岳」というのは、山梨県と長野県にまたがって連なる山々の総称です。 ですが、現在では山梨県の北杜市から長野県の富士見町や原村、茅野市など八ヶ岳の麓や裾野に広がる地域を含めて「八ヶ岳」と呼ぶ場合も多くなっています。 ハチ旅でも裾野を含めた地域を「八ヶ岳」と呼んでいます。
+                                </p>
+                            </div>
+                            <div class="column">
+                                <figure>
+                                    <img src="/assets/img/basicinfo/about/map.jpg" alt="">
+                                </figure>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sec2">
+                        <div class="sec2_title">
+                            <div class="circle circle1"></div>
+                            <div class="circle circle2"></div>
+                            <div class="circle circle3"></div>
+                            <div class="circle circle4"></div>
+                            <h3 class="">私たちが八ヶ岳に<br class="pc-hidden">惹かれる8つの理由</h3>
+                        </div>
+                        <div class="list">
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>1</span>
+                                        </div>
+                                        <div class="txt">八ヶ岳で本格登山から気軽なハイキングまで楽しめる</div>
+                                    </div>
+                                    <p class="desc">
+                                        標高2,899mの最高峰・赤岳をはじめ、3,000m級の山々が連なる八ヶ岳連峰は多くの登山者が愛する山。世界の高峰をめざす登山家がトレーニングで登ることもある、国内でも屈指の険しい山です。<br> 一方で、八ヶ岳周辺には飯盛山のように、登山初心者が気軽に楽しめる山もたくさん。地元では小学生も登る山ですが、展望は素晴らしくキレイに八ヶ岳を望むことができます。このほかにもリフトなどが整備された入笠山など、気軽なトレッキングを楽しめる山が多く、本格登山をする人から入門者まで楽しめる地域です。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">登山・ハイキングスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                    <div class="sp-control">
+                                        <a href="#">すべて見る（00件）</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>2</span>
+                                        </div>
+                                        <div class="txt">渓谷や滝、湖など水のリゾートでくつろげる</div>
+                                    </div>
+                                    <p class="desc">
+                                        八ヶ岳は名水百選にも選ばれている「八ヶ岳南麓高原湧水群」をはじめとしたさまざまな湧水や、諏訪湖、蓼科湖といった湖、尾白川渓谷、横谷渓谷といった渓谷など、水の恵みに囲まれた土地でもあります。 渓谷や川などの景色を楽しむ散策、トレッキングはもちろん、湖の近くや川の近くでキャンプなどのアウトドアを楽しめる地域です。 さらに高原の湖畔など、水の生み出した景色を見ながらゆっくりと過ごすことも。アクティブに楽しむことも、リラックスして過ごすこともできる水のリゾートです。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">自然を感じるスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>3</span>
+                                        </div>
+                                        <div class="txt">高山植物や紅葉など、季節ごとの自然に出会える</div>
+                                    </div>
+                                    <p class="desc">
+                                        山々や水とともに八ヶ岳の景色をつくっているのが植物。貴重な高山植物が数多く自生する霧ヶ峰高原や、初夏に咲く120万本のスズランをはじめ山野草の宝庫と呼ばれる入笠山、白樺に囲まれた高原エリアなど、さまざまな植物が八ヶ岳の景色を彩っています。 また、南北に長く、標高差も大きいため春の桜や秋の紅葉はスポットによって見ごろの時期がさまざま。桜なら4月初旬に見ごろを迎える日本三大桜のひとつ・山高神代桜からはじまり、5月の連休中に見ごろを迎えることも多い蓼科高原の桜まで1か月以上桜のシーズンが続きます。秋の紅葉も同様で、季節の景色を長く楽しめる地域です。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">自然を感じるスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>4</span>
+                                        </div>
+                                        <div class="txt">スキーや乗馬、MTBなど広大なフィールドで遊べる</div>
+                                    </div>
+                                    <p class="desc">
+                                        山々に囲まれた八ヶ岳は、アクティビティのフィールドとしても魅力たっぷり。冬の高原エリアではスキー場がオープンし、家族連れなどで賑わいます。近年では雪のフィールドを歩くスノーシューなども盛んです。 また暖かい時期は自然がさまざまなアクティビティの舞台に。入笠山の富士見パノラマリゾートでは、冬にはスキー場となる山のフィールド周辺がMTBのコースになります。国内はもちろんアジアでも屈指の本格コースとしてMTBの大会にも使われています。 このほかにも、多くの乗馬クラブが集まる山梨県北杜市の小淵沢での乗馬や、高原でのパラグライダー、湖でのカヤックなどいろんなアクティビティが集まるエリアです。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">アクティビティスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>5</span>
+                                        </div>
+                                        <div class="txt">高原野菜や乳製品、ジビエなど八ヶ岳グルメを味わえる</div>
+                                    </div>
+                                    <p class="desc">
+                                        夏でも涼しく、寒暖差が大きい八ヶ岳は高原野菜の一大産地。夏の時期を中心にトマトやレタス、とうもろこしなど新鮮な野菜、フルーツが並びます。冷涼な高原エリアでは酪農なども盛んで、牛乳や乳製品も名物です。 また、諏訪大社周辺では古くから鹿食の伝統があったりと、ジビエ文化が根付いた地域でもあり、ジビエを扱うお店も豊富。 日本酒にワイン、ビール、ウイスキーなどさまざまな酒蔵が集まっている地域でもあるので、地元のお酒といっしょに地域食材の料理を楽しめます。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">ミュージアムスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>6</span>
+                                        </div>
+                                        <div class="txt">大小さまざまな美術館、博物館で感性を刺激する</div>
+                                    </div>
+                                    <p class="desc">
+                                        八ヶ岳周辺はインドアでの楽しみも豊富。美術館や博物館が数多く集まっており、いろんな刺激を受けることができます。 国内最大級のガラスミュージアム・SUWAガラスの里や、19世紀ヨーロッパでつくられた貴重なオルゴールと自動演奏楽器が集まる萌木の村のオルゴール館など、大小さまざまな美術館、ミュージアムが点在しています。 また、八ヶ岳周辺は縄文時代から多くの人が住んでおり、その遺跡や出土品も数多く見つかっている地域です。「縄文のビーナス」「仮面の女神」という2体の国宝土偶を所蔵する茅野市尖石縄文考古館など、縄文文化の博物館も各地にあります。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">温泉・サウナスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>7</span>
+                                        </div>
+                                        <div class="txt">たくさんの源泉と個性豊かな温泉でリラックスできる</div>
+                                    </div>
+                                    <p class="desc">
+                                        温泉地でもある八ヶ岳エリアは、各地に温泉旅館や温泉施設があります。面白いのは温泉施設が多いだけでなく、源泉の数も多い点。近くにあっても、温泉が湧き出る「源泉」が異なることもあり、個性の違う温泉を楽しめたりします。特に温泉旅館が立ち並ぶ上諏訪温泉は、密集した地域に500以上の源泉があり、旅館によって泉質が異なっていることも。 このほかにも、時間によって湯の色が変化する富士見高原の八峯苑 鹿の湯や、フォッサマグナ地帯から湧出する山梨県の白州塩沢温泉フォッサ・マグナの湯など、個性豊かな温泉が集まっています。「信玄の隠し湯」と伝わる温泉も多いです。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">温泉・サウナスポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_inner">
+                                    <div class="title">
+                                        <div class="number">
+                                            <span>point</span>
+                                            <span>8</span>
+                                        </div>
+                                        <div class="txt">リゾートホテルやペンションなどステイスタイルを選べる</div>
+                                    </div>
+                                    <p class="desc">
+                                        八ヶ岳にはさまざまなタイプの宿泊施設があります。リゾートホテルなどはもちろん、甲州街道と中山道がぶつかる宿場町として栄えた長野県の下諏訪町のように江戸時代に創業した老舗旅館が残る町もあれば、長野県の原村・富士見町、山梨県の清里といった高原エリアにはアットホームな雰囲気を楽しめるペンションが集まる地域も。また、最近では地域に残る古民家などをリノベーションした古民家宿や、いろんな人が集まる拠点としても親しまれるゲストハウスも増えています。 旅のスタイルやメンバーに合わせて宿泊スタイルも選べる地域です。
+                                    </p>
+                                    <div class="c-control">
+                                        <div class="c-label">宿泊スポット</div>
+                                        <div class="control">
+                                            <a href="#">すべて見る（00件）</a>
+                                            <button class="first"><img src="/assets/img/common/pagination_previous.svg" alt=""></button>
+                                            <button><img src="/assets/img/common/pagination_next.svg" alt=""></button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img1.jpg" alt=""></figure>
+                                            <p>やなのうなぎ　観光荘</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img2.jpg" alt=""></figure>
+                                            <p>八ケ岳自然文化園</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img3.jpg" alt=""></figure>
+                                            <p>北杜市オオムラサキセンター</p>
+                                        </a>
+                                        <a class="column" href="#">
+                                            <figure><img src="/assets/img/basicinfo/about/img4.jpg" alt=""></figure>
+                                            <p>八ヶ岳アドベンチャーツアーズ</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <section class="otherinfo">
+            <div class="bg"></div>
+            <div class="u-inner">
+                <div class="title">
+                    <h3>OTHER INFO</h3>
+                    <p>その他の八ヶ岳基本情報</p>
+                </div>
+                <div class="list">
+                    <a class="item" href="/basicinfo/area.html">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img1.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>AREA GUIDE</h4>
+                            <p>八ヶ岳とは</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="/basicinfo/access.html">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img2.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>ACCESS</h4>
+                            <p>アクセスガイド</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="item" href="/basicinfo/sos.html">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img3.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>SOS GUIDE</h4>
+                            <p>緊急時の連絡先</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+
+</html>

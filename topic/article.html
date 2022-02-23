@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container p-topicArticle">
+        <section>
+            <div class="u-inner">
+                <div class="c-content">
+                    <div class="column1">
+                        <ul class="breadcrumb">
+                            <li><a href="/">HOME</a></li>
+                            <li><a href="/topic/">TOPICS</a></li>
+                            <li>【八ヶ岳の伝統野菜】ポリッポリと音が鳴る実の固さがクセになる…上野大根のたくあん漬け…</li>
+                        </ul>
+                        <div class="c-article">
+                            <div class="c-article__inner">
+                                <div class="main c-category c-category-topic c-pr">
+                                    <h2>【八ヶ岳の伝統野菜】ポリッポリと音が鳴る実の固さがクセになる…上野大根のたくあん漬け、仕込みの時期に</h2>
+                                    <p class="c-date">2021.04.11</p>
+                                    <figure>
+                                        <img src="/assets/img/topic/article/main.jpg" alt="">
+                                    </figure>
+                                    <div class="category">
+                                        <p>
+                                            <span>グルメ</span>
+                                            <span>お取り寄せ</span>
+                                            <span>おうちで八ヶ岳</span>
+                                            <span>アクティビティ</span>
+                                            <span>自然観察</span>
+                                        </p>
+                                        <p>
+                                            <span>おうちで八ヶ岳</span>
+                                            <span>ミュージアム</span>
+                                            <span>お守り</span>
+                                            <span>親子向け</span>
+                                        </p>
+                                    </div>
+                                    <div class="area">
+                                        <p>
+                                            <span>韮崎・増富</span>
+                                            <span>清里</span>
+                                            <span>小淵沢</span>
+                                            <span>白州・長坂</span>
+                                            <span>富士見・原</span>
+                                            <span>佐久平</span>
+                                            <span>蓼科</span>
+                                            <span>白樺湖</span>
+                                            <span>霧ヶ峰・車山</span>
+                                            <span>諏訪湖</span>
+                                        </p>
+                                    </div>
+                                    <div class="vote">
+                                        <img src="/assets/img/common/sns.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="content1">
+                                    <h3>見出し1が入ります。</h3>
+                                    <p>
+                                        私はほかいくらその刺戟性というものの頃が歩くであり。<br> 何しろ今日が腐敗学もとうていそうしたごろごろずでしょなどから集っながら得たをはお話し弱らなけれなて、全くには思わたですなりです。
+                                        <br> 他がいうたのもことに場合にどうもないなん。
+                                        <br> どうか嘉納さんを反抗壇再び内約をしん弟どんな進みこっちか誤解でというお相違なけれますますなて、この当時は何か個性松山を致しから、嘉納さんの事が中学のそれをじっと同学習と与えば私陰をご附随から比べるようにもしご話の過ぎですませて、別にもし換言のしだているですのが云わたた。もっともたとえば今後に知っものはちょっと自由と察せたて、この事ではありざるてに対する個人を聞こえるで出しないで。同じため錐の他この他も私末を役に立つまいかと岩崎さんが恐れ入りたでしょ、文章の今たというご説明ななけれませが、日光の以上から責任がほかまでの寄宿舎の今日ありからしまえから、どうの事実が暮らしてその以上のよくすまでたと着ますものあるから、若いませだとあまりご人甘んじた方ありないませ。それで世の中か面倒かお話をなっでて、次第中ずるにきまっているた時をご反駁の今にできるうま
+                                    </p>
+                                </div>
+                                <div class="content2">
+                                    <h3>見出し2が入ります。見出し2が入ります。</h3>
+                                    <p class="txt">私はほかいくらその刺戟性というものの頃が歩くであり。<br> 何しろ今日が腐敗学もとうていそうしたごろごろずでしょなどから集っながら得たをはお話し弱らなけれなて、全くには思わたですなりです。
+                                        <br> 他がいうたのもことに場合にどうもないなん。
+                                        <br> どうか嘉納さんを反抗壇再び内約をしん弟どんな進みこっちか誤解でというお相違なけれますますなて、
+                                    </p>
+                                    <div class="pic">
+                                        <div class="pic_inner">
+                                            <figure>
+                                                <img src="/assets/img/topic/article/content2.jpg" alt="">
+                                            </figure>
+                                            <p>
+                                                キャプションが入ります。キャプションが入ります。キャプションが入ります。
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content3">
+                                    <h3>見出し3が入ります。見出し3が入ります。</h3>
+                                    <p class="txt">
+                                        私はほかいくらその刺戟性というものの頃が歩くであり。<br> 何しろ今日が腐敗学もとうていそうしたごろごろずでしょなどから集っながら得たをはお話し弱らなけれなて、全くには思わたですなりです。
+                                        <br> 他がいうたのもことに場合にどうもないなん。
+                                        <br> どうか嘉納さんを反抗壇再び内約をしん弟どんな進みこっちか誤解でというお相違なけれますますなて、
+                                    </p>
+                                </div>
+                                <div class="info info1">
+                                    <div class="c-section-title underline sp-column">
+                                        <div>
+                                            <h2>
+                                                EVENT INFORMATION
+                                            </h2>
+                                            <p>イベント概要</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <figure>
+                                            <img src="/assets/img/topic/article/info1.jpg" alt="">
+                                        </figure>
+                                        <div class="txtarea">
+                                            <h3>八ヶ岳いきもの観察会「雪上の足跡を追って動物探偵になろう」</h3>
+                                            <dl><dt>開催日</dt>
+                                                <dd>2021年04月11日（日）</dd>
+                                            </dl>
+                                            <dl><dt>時間</dt>
+                                                <dd>9:00 - 18:00</dd>
+                                            </dl>
+                                            <dl><dt>会場</dt>
+                                                <dd>八ヶ岳自然文化園</dd>
+                                            </dl>
+                                            <div class="link">
+                                                <a href="#" class="c-link">イベント詳細はこちら</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="info info2">
+                                    <div class="c-section-title underline sp-column">
+                                        <div>
+                                            <h2>
+                                                SPOT INFORMATION
+                                            </h2>
+                                            <p>会場情報</p>
+                                        </div>
+                                    </div>
+                                    <div class="content">
+                                        <figure>
+                                            <img src="/assets/img/topic/article/info2.jpg" alt="">
+                                        </figure>
+                                        <div class="txtarea">
+                                            <h3>八ヶ岳自然文化園</h3>
+                                            <dl><dt>住所</dt>
+                                                <dd>〒391-0115　<br> 長野県諏訪郡原村 17217-1613</dd>
+                                            </dl>
+                                            <dl><dt>電話番号</dt>
+                                                <dd>0266-74-2681</dd>
+                                            </dl>
+                                            <dl><dt>営業時間</dt>
+                                                <dd>9:00 - 18:00</dd>
+                                            </dl>
+                                            <dl><dt>定休日</dt>
+                                                <dd>火曜日</dd>
+                                            </dl>
+                                            <div class="link">
+                                                <a href="#" class="c-link">会場詳細はこちら</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="writer">
+                                    <figure><img src="/assets/img/topic/article/writer.png" alt=""></figure>
+                                    <div class="txtarea">
+                                        <p class="job">WRITER</p>
+                                        <p class="name">八ヶ岳 太郎</p>
+                                        <p class="txt">ダミーです。吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで始めて人間というものを見た。しかもあとで聞くとそれ（100w）</p>
+                                        <div class="sns">
+                                            <a href="#"><img class="instagram" src="/assets/img/common/sns_icon_instagram.svg" alt=""></a>
+                                            <a href="#"><img class="twitter" src="/assets/img/common/sns_icon_twitter.svg" alt=""></a>
+                                            <a href="#"><img class="facebook" src="/assets/img/common/sns_icon_facebook.svg" alt=""></a>
+                                        </div>
+                                        <p class="link">
+                                            <a href="">公式ホームページ</a>
+                                        </p>
+                                        <p class="link">
+                                            <a href="">八ヶ岳太郎の記事一覧</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-topicArticle_list">
+                                <div class="c-label">関連記事</div>
+                                <div class="c-list">
+                                    <a class="item" href="#">
+                                        <div class="ct"><span class="ctl">TOPICS</span><span class="prl">PR</span></div>
+                                        <figure>
+                                            <img src="/assets/img/topic/index/img1.jpg" alt="">
+                                        </figure>
+                                        <div class="txtarea">
+                                            <p class="desc sp-hidden">冬の旬、長芋はお正月のごちそう？　長野県南部では3が日にとろろご飯を食べる習慣も</p>
+                                            <p class="desc pc-hidden">八ヶ岳いきもの観察会「雪上の足跡を追って動物探偵になろう」</p>
+                                            <div class="category">
+                                                <p>
+                                                    <span>グルメ</span>
+                                                    <span>お取り寄せ</span>
+                                                    <span class="sp-hidden">おうちで八ヶ岳</span>
+                                                    <span class="sp-hidden">お取り寄せ</span>
+                                                </p>
+                                                <p>
+                                                    <span>おうちで八ヶ岳</span>
+                                                    <span class="sp-hidden">ミュージアム</span>
+                                                    <span class="sp-hidden">お守り</span>
+                                                </p>
+                                            </div>
+                                            <div class="area">
+                                                <p>
+                                                    <span>韮崎・増富</span>
+                                                    <span>清里</span>
+                                                    <span>小淵沢</span>
+                                                    <span class="sp-hidden">白州・長坂</span>
+                                                    <span class="sp-hidden">富士見・原</span>
+                                                    <span class="sp-hidden">佐久平</span>
+                                                    <span class="sp-hidden">蓼科</span>
+                                                </p>
+                                                <p>
+                                                    <span>白樺湖</span>
+                                                    <span>霧ヶ峰・車山</span>
+                                                    <span>諏訪湖</span>
+                                                </p>
+                                            </div>
+                                            <div class="c-date">
+                                                2021.04.11
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="#">
+                                        <div class="ct"><span class="ctl">FEATURE</span></div>
+                                        <figure>
+                                            <img src="/assets/img/topic/index/img2.jpg" alt="">
+                                        </figure>
+                                        <div class="txtarea">
+                                            <p class="desc sp-hidden">八ヶ岳西麓の里山集落にある古民家で、暮らすように旅する「ヤマウラステイ」スタート</p>
+                                            <p class="desc pc-hidden">八ヶ岳いきもの観察会「雪上の足跡を追って動物探偵になろう」</p>
+                                            <div class="category">
+                                                <p>
+                                                    <span>グルメ</span>
+                                                    <span>ショッピング</span>
+                                                    <span>寒いほどお得フェア</span>
+                                                </p>
+                                            </div>
+                                            <div class="area">
+                                                <p>
+                                                    <span>韮崎・増富</span>
+                                                    <span>清里</span>
+                                                    <span>小淵沢</span>
+                                                    <span class="sp-hidden">白州・長坂</span>
+                                                    <span class="sp-hidden">富士見・原</span>
+                                                </p>
+                                                <p>
+                                                    <span>白樺湖</span>
+                                                    <span>霧ヶ峰・車山</span>
+                                                    <span>諏訪湖</span>
+                                                </p>
+                                            </div>
+                                            <div class="c-date">
+                                                2021.04.11
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a class="item" href="#">
+                                        <figure>
+                                            <img src="/assets/img/topic/index/img3.jpg" alt="">
+                                        </figure>
+                                        <div class="txtarea">
+                                            <p class="desc sp-hidden">【2020年12月11日追記・オープン延期になりました】八ヶ岳や富士山を一望できる絶景テラス！　車山高原SKYPARKスキー場にSKY TERRACE誕生</p>
+                                            <p class="desc pc-hidden">八ヶ岳いきもの観察会「雪上の足跡を追って動物探偵になろう」</p>
+                                            <div class="category">
+                                                <p>
+                                                    <span>グルメ</span>
+                                                </p>
+                                            </div>
+                                            <div class="area">
+                                                <p>
+                                                    <span>韮崎・増富</span>
+                                                    <span>清里</span>
+                                                    <span>小淵沢</span>
+                                                    <span class="sp-hidden">白州・長坂</span>
+                                                    <span class="sp-hidden">富士見・原</span>
+                                                    <span class="sp-hidden">佐久平</span>
+                                                    <span class="sp-hidden">蓼科</span>
+                                                </p>
+                                                <p>
+                                                    <span>白樺湖</span>
+                                                    <span>霧ヶ峰・車山</span>
+                                                    <span>諏訪湖</span>
+                                                </p>
+                                            </div>
+                                            <div class="c-date">
+                                                2021.04.11
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="link pc-hidden">
+                                    <a href="#">すべて見る（00件）</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column2">
+                        <div class="advertise">
+                            <img src="/assets/img/common/topic_ad.jpg" alt="">
+                        </div>
+                        <div class="advertise">
+                            <img src="/assets/img/common/topic_ad.jpg" alt="">
+                        </div>
+                        <div class="spAd">
+                            <img src="/assets/img/common/sp_ad_img1.jpg" alt="">
+                        </div>
+                        <div class="spAd">
+                            <img src="/assets/img/common/sp_ad_img2.jpg" alt="">
+                        </div>
+                        <div class="ranking sp-hidden">
+                            <div class="title">
+                                <h2>RANKING</h2>
+                                <p>ハチ旅トピックス</p>
+                            </div>
+                            <div class="list">
+                                <a href="#" class="item c-category c-category-topic">
+                                    <h3>1</h3>
+                                    <figure>
+                                        <img src="/assets/img/common/ranking_img1.jpg" alt="">
+                                    </figure>
+                                    <div class="txtarea">
+                                        <p class="desc">冷めてもおいしい！　八ヶ岳の幻のお米「よんぱち」が通販サイトに登場</p>
+                                        <p class="c-date">2021.04.11</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="item c-category c-category-event">
+                                    <h3>2</h3>
+                                    <figure>
+                                        <img src="/assets/img/common/ranking_img2.jpg" alt="">
+                                    </figure>
+                                    <div class="txtarea">
+                                        <p class="desc">冷めてもおいしい！　八ヶ岳の幻のお米「よんぱち」が通販サイトに登場</p>
+                                        <p class="c-date">2021.04.11</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="item c-category c-category-feature">
+                                    <h3>3</h3>
+                                    <figure>
+                                        <img src="/assets/img/common/ranking_img3.jpg" alt="">
+                                    </figure>
+                                    <div class="txtarea">
+                                        <p class="desc">冷めてもおいしい！　八ヶ岳の幻のお米「よんぱち」が通販サイトに登場</p>
+                                        <p class="c-date">2021.04.11</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="item c-category c-category-info">
+                                    <h3>4</h3>
+                                    <figure>
+                                        <img src="/assets/img/common/ranking_img4.jpg" alt="">
+                                    </figure>
+                                    <div class="txtarea">
+                                        <p class="desc">冷めてもおいしい！　八ヶ岳の幻のお米「よんぱち」が通販サイトに登場</p>
+                                        <p class="c-date">2021.04.11</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="item c-category c-category-spot">
+                                    <h3>5</h3>
+                                    <figure>
+                                        <img src="/assets/img/common/ranking_img5.jpg" alt="">
+                                    </figure>
+                                    <div class="txtarea">
+                                        <p class="desc">冷めてもおいしい！　八ヶ岳の幻のお米「よんぱち」が通販サイトに登場</p>
+                                        <p class="c-date">2021.04.11</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="p-basicinfo">
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container p-basicinfoSos">
+        <div class="c-title">
+            <h2>Basic info</h2>
+            <p>八ヶ岳基本情報</p>
+        </div>
+        <section>
+            <div class="u-inner">
+                <ul class="breadcrumb">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                    <li>緊急時の連絡先</li>
+                </ul>
+                <div class="c-content1">
+                    <div class="c-section-title sp-column">
+                        <div>
+                            <h2>SOS GUIDE</h2>
+                            <p>緊急時の連絡先</p>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <div class="note">
+                            新型コロナウィルス感染症ではないかと不安をお持ちの場合は医療機関を受信する前に、滞在先の市区町村を管轄する「受診・相談センター（保健所）」にご相談いただくか、居住地の相談窓口やかかりつけの医療機関にご相談ください。<br>
+                            <br> 長野県茅野諏訪管轄　諏訪保健事務所　<a href="https://www.pref.nagano.lg.jp/suwaho/" target="_blank"> https://www.pref.nagano.lg.jp/suwaho/</a>
+                            <br> 山梨県北杜市管轄　中北保健福祉事務所　<a href="https://www.pref.yamanashi.jp/khk-hokenf/index.html​" target="_blank">https://www.pref.yamanashi.jp/khk-hokenf/index.html​</a>
+                            <br>
+                        </div>
+                        <div class="p-basicinfo-title">
+                            八ヶ岳の総合病院
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">祐愛病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒394-0033 長野県岡谷市南宮2-34</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-23-0222</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://www.yuai-hosp.or.jp/%E2%80%8B​" target="_blank">http://www.yuai-hosp.or.jp/%E2%80%8B​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">諏訪赤十字病院​​</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒392-8510 長野県諏訪市湖岸通り5-11-50</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-52-6111</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://www.suwa.jrc.or.jp/" target="_blank">http://www.suwa.jrc.or.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="p-basicinfo-row">
+                            <div class="head">諏訪城東病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>掲載ナシ</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-42-2221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://shiokawa.html.xdomain.jp/" target="_blank">http://shiokawa.html.xdomain.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="p-basicinfo-row">
+                            <div class="head">諏訪中央病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒391-8503 長野県茅野市玉川4300</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-72-1000</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://www.suwachuo.jp/" target="_blank">http://www.suwachuo.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">富士見高原病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒399-0214 長野県諏訪郡富士見町落合11100</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-62-3030</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://fujimihp.com/" target="_blank">http://fujimihp.com/</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">北杜市立塩川病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒408-0114 山梨県北杜市須玉町藤田773</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-42-2221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://shiokawa.html.xdomain.jp/" target="_blank">http://shiokawa.html.xdomain.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">北杜市立甲陽病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒408-0034 山梨県北杜市長坂町大八田3954</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-32-3221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.city.hokuto.yamanashi.jp/docs/12124.html" target="_blank">https://www.city.hokuto.yamanashi.jp/docs/12124.html​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="p-basicinfo-row">
+                            <div class="head">韮崎総合病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>掲載ナシ</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-42-2221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="http://shiokawa.html.xdomain.jp/" target="_blank">http://shiokawa.html.xdomain.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="p-basicinfo-row">
+                            <div class="head">韮崎市立病院</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒407-0024 山梨県韮崎市本町3-5-3</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-22-1221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.nirasaki-cityhospital.jp/" target="_blank">https://www.nirasaki-cityhospital.jp/</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-title">
+                            八ヶ岳の警察署
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">諏訪警察署</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>諏訪警察署</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-42-2221</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.pref.nagano.lg.jp/police/keisatsusho/suwa.html" target="_blank">https://www.pref.nagano.lg.jp/police/keisatsusho/suwa.html​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">茅野警察署</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒391-0003 長野県茅野市本町西9-39</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-82-0110</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.pref.nagano.lg.jp/police/keisatsusho/chino.html" target="_blank">https://www.pref.nagano.lg.jp/police/keisatsusho/chino.html</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">北杜警察署</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒408-0021 山梨県北杜市長坂町長坂上条2575-79</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-32-0110</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.pref.yamanashi.jp/police/hokuto-ps/" target="_blank">https://www.pref.yamanashi.jp/police/hokuto-ps/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">韮崎警察署</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒407-0024 山梨県韮崎市本町3-5-10</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-22-0110</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.pref.yamanashi.jp/mobile/police/p_soumu/p_station_nirasaki.html" target="_blank">https://www.pref.yamanashi.jp/mobile/police/p_soumu/p_station_nirasaki.html​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-title">
+                            八ヶ岳の市役所
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">諏訪市役所</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒392-8511 長野県諏訪市高島1-22-30</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-52-4141</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.city.suwa.lg.jp/" target="_blank">https://www.city.suwa.lg.jp/</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">茅野市役所</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒391-8501 長野県茅野市塚原2-6-1</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0266-72-2101</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.city.chino.lg.jp/" target="_blank">https://www.city.chino.lg.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">北杜市役所</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒408-0188 山梨県北杜市須玉町大豆生田961-1</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-42-1111</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.city.hokuto.yamanashi.jp/" target="_blank">https://www.city.hokuto.yamanashi.jp/</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-basicinfo-row">
+                            <div class="head">韮崎市役所</div>
+                            <div class="content">
+                                <div class="group">
+                                    <div class="column">
+                                        <p>住所</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>〒407-8501 山梨県韮崎市水神1-3-1</p>
+                                        <a href="#" target="blank"><span>地図を見る</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>電話番号</p>
+                                    </div>
+                                    <div class="column">
+                                        <p>0551-22-1111</p>
+                                    </div>
+                                </div>
+                                <div class="group">
+                                    <div class="column">
+                                        <p>詳細ページ</p>
+                                    </div>
+                                    <div class="column">
+                                        <a class="detail" href="https://www.city.nirasaki.lg.jp/" target="_blank">https://www.city.nirasaki.lg.jp/​</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="otherinfo">
+            <div class="bg"></div>
+            <div class="u-inner">
+                <div class="title">
+                    <h3>OTHER INFO</h3>
+                    <p>その他の八ヶ岳基本情報</p>
+                </div>
+                <div class="list">
+                    <a href="/basicinfo/about.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img4.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>ABOUT</h4>
+                            <p>八ヶ岳とは</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/basicinfo/area.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img1.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>AREA GUIDE</h4>
+                            <p>観光エリアガイド</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/basicinfo/access.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img2.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>ACCESS</h4>
+                            <p>アクセスガイド</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+
+</html>

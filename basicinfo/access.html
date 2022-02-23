@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="p-basicinfo">
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container p-basicinfoAccess">
+        <div class="c-title">
+            <h2>Basic info</h2>
+            <p>八ヶ岳基本情報</p>
+        </div>
+        <section>
+            <div class="u-inner">
+                <ul class="breadcrumb">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                    <li>アクセスガイド</li>
+                </ul>
+                <div class="c-content1">
+                    <div class="c-section-title sp-column">
+                        <div>
+                            <h2>ACCESS</h2>
+                            <p>アクセスガイド</p>
+                        </div>
+                    </div>
+                    <div class="inner">
+                        <section class="map">
+                            <figure>
+                                <img src="/assets/img/basicinfo/access/map.png" alt="">
+                            </figure>
+                            <p class="sec_desc">八ヶ岳エリアまでのアクセス</p>
+                        </section>
+                        <section class="traffic">
+                            <div class="list">
+                                <div class="item">
+                                    <div class="p-basicinfo-title">
+                                        <span>車をご利用の場合</span>
+                                    </div>
+                                    <div class="desc">
+                                        中央自動車道の須玉IC、長坂IC、小淵沢IC、諏訪南IC、諏訪ICの5つのインターチェンジからアクセスすることができます。目的地に応じて、最寄りのICをご利用ください。
+                                    </div>
+                                    <figure>
+                                        <img src="/assets/img/basicinfo/access/load1.png" alt="">
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <div class="p-basicinfo-title">
+                                        <span>電車をご利用の場合</span>
+                                    </div>
+                                    <div class="desc">
+                                        JR中央本線の日野春駅・長坂駅・小淵沢駅、信濃境駅、富士見駅、すずらんの里駅、青柳駅、茅野駅、上諏訪駅、下諏訪駅がご利用いただけます。目的地に応じて、最寄りの駅をご利用ください。駅からの交通はレンタカーが便利です。
+                                    </div>
+                                    <figure>
+                                        <img src="/assets/img/basicinfo/access/load2.png" alt="">
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <div class="item_group">
+                                        <div class="p-basicinfo-title">
+                                            <span>高速バスをご利用の場合</span>
+                                        </div>
+                                        <div class="desc">
+                                            新宿から清里、蓼科、白樺湖等の八ヶ岳にむけて、複数の高速バスが運行しております。事前予約割引、回数券等お得なサービスもあります。具体的な路線や時刻表は下記の詳細ページをご覧ください。
+                                        </div>
+                                        <div class="p-basicinfo-row row1 first">
+                                            <div class="head">東京から</div>
+                                            <div class="content">
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>新宿～諏訪・岡谷・茅野線</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>山梨交通、アルピコ交通、JRバス</p>
+                                                        <a href="https://www.highwaybus.com/gp/reservation/rsvPlanList?lineId=140" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>新宿〜蓼科・白樺湖・横谷峡</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>トラビスジャパン</p>
+                                                        <a href="https://www.highwaybus.net/route/tsn-sin.php?id=HB" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>新宿〜諏訪、茅野、富士見</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>トラビスジャパン</p>
+                                                        <a href="https://www.highwaybus.net/route/suw-sin.php?id=HB" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>新宿〜八ヶ岳・清里</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>トラビスジャパン</p>
+                                                        <a href="https://www.highwaybus.net/route/yts-sin.php?id=TJ" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="p-basicinfo-row row1">
+                                            <div class="head">東京から</div>
+                                            <div class="content">
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>名古屋～小淵沢・八ヶ岳・韮崎</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>山梨交通、JR東海バス</p>
+                                                        <a href="https://www.bushikaku.net/search/aichi_yamanashi/nagoya_hokuto/platform-_2680/" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <div class="column">
+                                                        <p>名古屋～岡谷</p>
+                                                    </div>
+                                                    <div class="column">
+                                                        <p>名鉄バス</p>
+                                                        <a href="https://www.bushikaku.net/search/aichi_nagano/nagoya_okaya/" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="sec_desc">八ヶ岳エリアまでのアクセス</p>
+                                </div>
+                                <div class="item">
+                                    <div class="p-basicinfo-title">
+                                        <span>レンタカー</span>
+                                    </div>
+                                    <div class="imggroup">
+                                        <div class="imgarea">
+                                            <div class="imgarea_inner">
+                                                <div class="imgitem">
+                                                    <div class="c-label sm">
+                                                        韮崎駅
+                                                    </div>
+                                                    <a class="imgitem_content" href="#">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img1.jpg" alt="">
+                                                        </figure>
+                                                        <p>トヨタレンタリース韮崎駅前店</p>
+                                                    </a>
+                                                </div>
+                                                <div class="imgitem">
+                                                    <div class="c-label sm">
+                                                        小淵沢駅
+                                                    </div>
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img2.jpg" alt="">
+                                                        </figure>
+                                                        <p>駅レンタカー小淵沢営業所</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="imgarea">
+                                            <div class="c-label sm">
+                                                茅野駅
+                                            </div>
+                                            <div class="imgarea_inner">
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img1.jpg" alt="">
+                                                        </figure>
+                                                        <p>駅レンタカー茅野営業所</p>
+                                                    </a>
+                                                </div>
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img2.jpg" alt="">
+                                                        </figure>
+                                                        <p>ニッポンレンタカー 茅野駅西口 営業所</p>
+                                                    </a>
+                                                </div>
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img3.jpg" alt="">
+                                                        </figure>
+                                                        <p>トヨタレンタカー 茅野駅前店</p>
+                                                    </a>
+                                                </div>
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img4.jpg" alt="">
+                                                        </figure>
+                                                        <p>日産レンタカー 茅野店</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="imgarea">
+                                            <div class="c-label sm">
+                                                上諏訪駅
+                                            </div>
+                                            <div class="imgarea_inner">
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img1.jpg" alt="">
+                                                        </figure>
+                                                        <p>駅レンタカー上諏訪営業所</p>
+                                                    </a>
+                                                </div>
+                                                <div class="imgitem">
+                                                    <a href="#" class="imgitem_content">
+                                                        <figure>
+                                                            <img src="/assets/img/basicinfo/about/img2.jpg" alt="">
+                                                        </figure>
+                                                        <p>トヨタレンタカー上諏訪駅前店</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="p-basicinfo-title">
+                                        <span>バス</span>
+                                    </div>
+                                    <div class="p-basicinfo-row row2 first">
+                                        <div class="head">韮崎駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>韮崎市民バス</p>
+                                                    <a href="https://www.city.nirasaki.lg.jp/kurashi_tetsuzuki/seikatsu_kotsu/3/2636.html​​​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>山梨交通</p>
+                                                    <a href="http://yamanashikotsu.co.jp/route_bus/search_route_map/branch_nirasaki/" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>山梨峡北交通バス</p>
+                                                    <a href="http://kyohoku.jp/%E8%B7%AF%E7%B7%9A%E3%83%90%E3%82%B9/" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">日野春駅・長坂駅・小淵沢駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>北杜市民バス</p>
+                                                    <a href="https://www.city.hokuto.yamanashi.jp/docs/11594.html​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">小淵沢駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>八ヶ岳鉢巻周遊リゾートバス</p>
+                                                    <a href="https://tenkuhaku.com/hachimaki-bus​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">清里駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>清里ピクニックバス</p>
+                                                    <a href="https://www.kiyosato.gr.jp/sougou/bus.html#bus%E2%80%8B" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">茅野駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>アルピコ交通</p>
+                                                    <a href="https://www.alpico.co.jp/traffic/local/suwa/​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">上諏訪駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>アルピコ交通</p>
+                                                    <a href="https://www.alpico.co.jp/traffic/local/suwa/chino_okaya/​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>かりんちゃんバス</p>
+                                                    <a href="https://www.city.suwa.lg.jp/www/info/detail.jsp?id=6435%E2%80%8B" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">下諏訪駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>アルピコ交通</p>
+                                                    <a href="https://www.alpico.co.jp/traffic/local/suwa/chino_okaya/​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-basicinfo-row row2">
+                                        <div class="head">岡谷駅発着のバス</div>
+                                        <div class="content">
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>アルピコ交通</p>
+                                                    <a href="https://www.alpico.co.jp/traffic/local/suwa/chino_okaya/​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                            <div class="group">
+                                                <div class="column">
+                                                    <p>シルキースワンバス</p>
+                                                    <a href="https://www.city.okaya.lg.jp/silkybus_swanbus/index.html​" target="blank"><span>詳細ページ</span><img src="/assets/img/common/icon_link.svg" alt=""></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="otherinfo">
+            <div class="bg"></div>
+            <div class="u-inner">
+                <div class="title">
+                    <h3>OTHER INFO</h3>
+                    <p>その他の八ヶ岳基本情報</p>
+                </div>
+                <div class="list">
+                    <a href="/basicinfo/about.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img4.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>ABOUT</h4>
+                            <p>八ヶ岳とは</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/basicinfo/area.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img1.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>AREA GUIDE</h4>
+                            <p>観光エリアガイド</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="/basicinfo/sos.html" class="item">
+                        <figure>
+                            <img src="/assets/img/basicinfo/index/otherinfo_img3.jpg" alt="">
+                        </figure>
+                        <div class="txtarea">
+                            <h4>SOS GUIDE</h4>
+                            <p>緊急時の連絡先</p>
+                            <div class="link">
+                                <div class="c-link white">詳しく見る</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/assets/js/common.js"></script>
+</body>
+
+</html>

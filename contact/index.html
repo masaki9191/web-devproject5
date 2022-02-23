@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ハチ旅サイト</title>
+    <link rel="stylesheet" href="https://use.typekit.net/hix5xbj.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div id="spMenu" class="overlay">
+        <div class="close">
+            <span></span>
+            <span></span>
+        </div>
+        <div class="wrapper">
+            <div class="search">
+                <input type="text" placeholder="気になるワードで検索">
+                <button type="submit">
+                    <img src="/assets/img/top/icon_search.svg" alt="">
+                </button>
+            </div>
+            <ul>
+                <li><a href="/" class="item">Home</a></li>
+                <li><a href="/topic/" class="item">トピックス</a></li>
+                <li><a href="/feature/" class="item">特集</a></li>
+                <li><a href="/event/" class="item">イベント検索</a></li>
+                <li><a href="/spot/" class="item">観光スポット検索</a></li>
+                <li>
+                    <a class="collapsible">八ヶ岳基本情報</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/basicinfo/about.html" class="item">八ヶ岳とは</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/area.html" class="item">エリアガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/access.html" class="item">アクセスガイド</a>
+                            </li>
+                            <li>
+                                <a href="/basicinfo/sos.html" class="item">SOSガイド</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a class="collapsible">八ヶ岳移住ガイド</a>
+                    <div class="content">
+                        <ul>
+                            <li>
+                                <a href="/movingguide/pro.html" class="item">八ヶ岳に移住して良かったこと</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/contra.html" class="item">八ヶ岳暮らしの厳しさ</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/support.html" class="item">八ヶ岳エリア市町村の移住窓口</a>
+                            </li>
+                            <li>
+                                <a href="/movingguide/realestate.html" class="item">八ヶ岳エリアの不動産一覧</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="/contact/" class="item">お問い合わせ</a>
+                </li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                    <img src="/assets/img/common/icon_sp_facebook.svg" alt="">
+                </a>
+                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                    <img src="/assets/img/common/icon_sp_twitter.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                    <img src="/assets/img/common/icon_sp_instagram.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <header class="l-header">
+        <div class="u-inner">
+            <div class="content">
+                <h1 class="logo">
+                    <a href="/">
+                        <img src="/assets/img/common/logo.svg" alt="">
+                    </a>
+                </h1>
+                <div class="menu">
+                    <div class="top">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                    <img src="/assets/img/common/icon_facebook.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                    <img src="/assets/img/common/icon_twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                    <img src="/assets/img/common/icon_instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <ul>
+                            <li><a href="/topic/">トピックス</a></li>
+                            <li><a href="/feature/">特集</a></li>
+                            <li><a href="/event/">イベント</a></li>
+                            <li><a href="/spot/">観光スポット</a></li>
+                            <li><a href="/basicinfo/">八ヶ岳基本情報</a></li>
+                            <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                        </ul>
+                    </div>
+                    <div class="sp-menu">
+                        <div class="sp-menu__link">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container p-contactIndex">
+        <div class="u-inner2">
+            <ul class="breadcrumb">
+                <li><a href="/">HOME</a></li>
+                <li>お問い合わせ</li>
+            </ul>
+            <div class="c-content1">
+                <div class="c-other-ttl">
+                    <h2>Contact</h2>
+                    <p>お問い合わせ</p>
+                </div>
+                <form action="/contact/confirm.html" method="post">
+                    <div>
+                        <div class="form-group name">
+                            <label for="">お名前<span>※</span></label>
+                            <div class="form-row">
+                                <input type="text" name="name_first" id="name_first" class="u-input" placeholder="姓">
+                                <input type="text" name="name_last" id="name_last" class="u-input" placeholder="名">
+                            </div>
+                            <p class="alert">入力必須項目です。</p>
+                        </div>
+                        <div class="form-group name">
+                            <label for="">ふりがな<span>※</span></label>
+                            <div class="form-row">
+                                <input type="text" name="furi_first" id="furi_first" class="u-input" placeholder="せい">
+                                <input type="text" name="furi_last" id="furi_last" class="u-input" placeholder="めい">
+                            </div>
+                            <p class="alert">入力必須項目です。</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="">メールアドレス<span>※</span></label>
+                            <div class="form-row">
+                                <input type="text" class="u-input" name="email" id="email" placeholder="例）name@example.com">
+                            </div>
+                            <p class="alert">有効なメールアドレスをご記入ください。</p>
+                        </div>
+                        <div class="form-group phone">
+                            <label for="">電話番号<span>※</span></label>
+                            <div class="form-row">
+                                <input type="text" class="u-input" name="phone1" id="phone1">
+                                <span>-</span>
+                                <input type="text" class="u-input" name="phone2" id="phone2">
+                                <span>-</span>
+                                <input type="text" class="u-input" name="phone3" id="phone3">
+                            </div>
+                            <p class="alert">入力必須項目です。</p>
+                        </div>
+                        <div class="form-group address">
+                            <label for="">住所</label>
+                            <div class="form-row  postal">
+                                <span>〒</span>
+                                <input type="text" class="u-input" name="postal" onKeyUp="AjaxZip3.zip2addr(this,'','prefecture_select','prefecture_input','street','build');">
+                                <p>ハイフン無しでご入力ください。<br> ※郵便番号を入力すると自動で住所が入力されます。
+                                </p>
+                            </div>
+                            <div class="form-row prefecture">
+                                <div class="u-select">
+                                    <select name="prefecture_select" id="">
+                                        <option value="">北海道</option>
+                                        <option value="">青森県</option>
+                                        <option value="">岩手県</option>
+                                        <option value="">宮城県</option>
+                                        <option value="">秋田県</option>
+                                        <option value="">山形県</option>
+                                        <option value="">福島県</option>
+                                        <option value="">茨城県</option>
+                                        <option value="">栃木県</option>
+                                        <option value="">群馬県</option>
+                                        <option value="">埼玉県</option>
+                                        <option value="">千葉県</option>
+                                        <option value="">東京都</option>
+                                        <option value="">神奈川県</option>
+                                        <option value="">新潟県</option>
+                                        <option value="">富山県</option>
+                                        <option value="">石川県</option>
+                                        <option value="">福井県</option>
+                                        <option value="">山梨県</option>
+                                        <option value="">長野県</option>
+                                        <option value="">岐阜県</option>
+                                        <option value="">静岡県</option>
+                                        <option value="">愛知県</option>
+                                        <option value="">三重県</option>
+                                        <option value="">滋賀県</option>
+                                        <option value="">京都府</option>
+                                        <option value="">大阪府</option>
+                                        <option value="">兵庫県</option>
+                                        <option value="">奈良県</option>
+                                        <option value="">和歌山県</option>
+                                        <option value="">鳥取県</option>
+                                        <option value="">島根県</option>
+                                        <option value="">岡山県</option>
+                                        <option value="">広島県</option>
+                                        <option value="">山口県</option>
+                                        <option value="">徳島県</option>
+                                        <option value="">香川県</option>
+                                        <option value="">愛媛県</option>
+                                        <option value="">高知県</option>
+                                        <option value="">福岡県</option>
+                                        <option value="">佐賀県</option>
+                                        <option value="">長崎県</option>
+                                        <option value="">熊本県</option>
+                                        <option value="">大分県</option>
+                                        <option value="">宮崎県</option>
+                                        <option value="">鹿児島県</option>
+                                        <option value="">沖縄県</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="u-input" placeholder="市町区村" name="prefecture_input">
+                            </div>
+                            <div class="form-row">
+                                <input type="text" class="u-input" name="street" placeholder="丁目・番地など">
+                            </div>
+                            <div class="form-row">
+                                <input type="text" class="u-input" name="build" placeholder="ビル名、マンション名">
+                            </div>
+                        </div>
+                        <div class="form-group message">
+                            <label for="">お問い合わせ内容<span>※</span></label>
+                            <div class="form-row">
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+                            <p class="alert">入力必須項目です。</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="">今後弊社からの、キャンペーンやイベント等のお知ら​せメールを<br>
+                                お送りしてもよろしいですか。</label>
+                            <div class="form-row radio">
+                                <label class="u-radio">希望する
+                                    <input type="radio" name="want" checked>
+                                    <span class="radio-mark"></span>
+                                  </label>
+                                <label class="u-radio">希望しない
+                                    <input type="radio" name="want">
+                                    <span class="radio-mark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="alert">※印のついたものは必須入力項目です。</p>
+                    <div class="">
+                        <label class="u-checkbox"><a href="/privacy.html" class="blue" target="_blank">プライバシーポリシー</a>に同意する
+                            <input type="checkbox" name="privacy">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="btn">
+                        <button type="submit" class="c-link sm" id="contact_submit">確認する</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="l-footer">
+        <div class="top">
+            <div class="u-inner">
+                <h1>
+                    <figure>
+                        <a href="/">
+                            <img src="/assets/img/common/logo1.svg" alt="">
+                        </a>
+                    </figure>
+                </h1>
+                <div class="bgmenu">
+                    <ul>
+                        <li><a href="/topic/">トピックス</a></li>
+                        <li><a href="/feature/">特 集</a></li>
+                        <li><a href="/event/">イベント</a></li>
+                        <li><a href="/spot/">観光スポット</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="/basicinfo/">八ヶ岳基本情報</a> </li>
+                        <li><a href="/movingguide/">八ヶ岳移住ガイド</a></li>
+                    </ul>
+                </div>
+                <div class="sns">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/8tabi/" target="_blank">
+                                <img src="/assets/img/common/icon_w_facebook.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/8tabi_jp" target="_blank">
+                                <img src="/assets/img/common/icon_w_twitter.svg" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/8tabi_jp/?hl=ja" target="_blank">
+                                <img src="/assets/img/common/icon_w_instagram.svg" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="smmenu">
+                    <ul>
+                        <li>
+                            <a href="/company.html">運営会社</a>
+                        </li>
+                        <li>
+                            <a href="/contact/">お問い合わせ</a>
+                        </li>
+                        <li>
+                            <a href="/advertising.html">広告掲載について</a>
+                        </li>
+                        <li>
+                            <a href="/privacy.html">プライバシーポリシー</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="u-inner">
+                <p> © ヤツガタケシゴトニン</p>
+                <ul>
+                    <li>GROUP MEDIA :</li>
+                    <li>
+                        <a href="https://suwa-tabi.jp/" target="_blank">諏訪旅</a>
+                    </li>
+                    <li>
+                        <a href="https://8katte.com/" target="_blank">ハチカッテ</a>
+                    </li>
+                    <li>
+                        <a href="https://8guide.jp/" target="_blank">ハチガイド</a>
+                    </li>
+                    <li>
+                        <a href="https://shopby8.jp/" target="_blank">SHOP by yatsugatake</a>
+                    </li>
+                    <li>
+                        <a href="https://machigohan.com/" target="_blank">諏訪まちごはん</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+    <script src="/assets/js/common.js"></script>
+    <script src="/assets/js/contact.js"></script>
+</body>
+
+</html>
